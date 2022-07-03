@@ -1,0 +1,16 @@
+%flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%flexBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%gridCenter {
+  display: grid;
+  place-items: center;
+}

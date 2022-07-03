@@ -1,0 +1,9 @@
+// Convert px to rem Start
+@function scut-strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function rem($pixels) {
+  @return scut-strip-unit($pixels) / $scut-rem-base * 1rem;
+}
+// Convert px to rem End

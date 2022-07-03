@@ -1,0 +1,14 @@
+@charset 'utf-8';
+// Don't change the import folder links
+// @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "utilities/__utils-dir";
+@import "base/__base-dir";
+@import "components/__components-dir";
+@import "layout/__layout-dir";
+@import "pages/__pages-dir";
+
+.mine{
+    background-color: rgb(101, 47, 47);
+    color:rgb(84, 84, 14);
+    
+}
